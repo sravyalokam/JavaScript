@@ -1,0 +1,20 @@
+{
+  "name": "my-js-project",
+  "version": "1.0.0",
+  "description": "exploring project structure",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run",
+    "dev": "nodemon index.html"
+  },
+  "author": "Sravya",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.38"
+  },
+  "devDependencies": {
+    "karma": "^6.4.4",
+    "lint": "^0.8.19",
+    "nodemon": "^3.1.11"
+  }
+}

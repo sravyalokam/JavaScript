@@ -11,9 +11,6 @@ console.log(result);
 
 
 
-
-
-
 const array2 = [1,2,3];
 const deep_clone_array2 = structuredClone(array2);
 deep_clone_array2[0] = 5;

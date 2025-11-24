@@ -10,7 +10,8 @@
   "author": "Sravya",
   "license": "ISC",
   "dependencies": {
-    "babel": "^5.8.38"
+    "babel": "^5.8.38",
+    "dotenv": "^17.2.3"
   },
   "devDependencies": {
     "karma": "^6.4.4",

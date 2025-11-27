@@ -27,7 +27,7 @@ async function getData() {
     console.log("Raw Response:", text);
 }
 
-// getData();
+getData();
 
 async function postData() {
 
@@ -47,7 +47,6 @@ async function postData() {
 
     console.log("Status Code:", data.status);
     const result = await data.text();
-    // const text = await data.text();  
     console.log("Raw Response:", result);
 }
 

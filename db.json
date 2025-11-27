@@ -1,0 +1,19 @@
+{
+  "employees": [
+    { "id": 1, "name": "Alice", "email": "alice@company.com" },
+    { "id": 2, "name": "Bob", "email": "bob@company.com" },
+    { "id": 3, "name": "Charlie", "email": "charlie@company.com" }
+  ],
+  "projects": [
+    { "employee_id": 1, "project_name": "Project A", "role": "Lead" },
+    { "employee_id": 1, "project_name": "Project B", "role": "Developer" },
+    { "employee_id": 2, "project_name": "Project A", "role": "Developer" },
+    { "employee_id": 3, "project_name": "Project C", "role": "Tester" }
+  ],
+  "departments": [
+    { "employee_id": 1, "department": "Engineering" },
+    { "employee_id": 2, "department": "Engineering" },
+    { "employee_id": 3, "department": "QA" }
+  ]
+}
+
